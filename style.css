@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#conteiner{
+    background: url(./image/Dev.png);
+    padding-bottom: 13em;
+    
+}
+
+#cabecalho{
+    display: flex;
+    padding-top: 2em;
+    padding-left: 2em;
+}
+
+.titulo-cabecalho{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+
+#links-cabecalho{
+    padding-left: 10em;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin-top: 5px;
+    cursor: pointer;
+
+}
+
+a{
+    margin-right: 4em;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin-top: 6em;
+    margin-left: 1em
+
+}
+
+
+form{
+    
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    float: right;
+    padding: 20px;
+    margin-right: 120px;
+    position: relative;
+    bottom: 20em;
+    
+}
+
+input{
+    display: block;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    height: 40px;
+    width: 250px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    position: relative;
+}
+
+textarea{
+    display: block;
+    height: 80px;
+    width: 250px;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+#titulo-formulario{
+    font-size: 24px;
+    color: #252B42;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+label{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+
+}
+
+button{
+    width: 250PX;
+    height: 40px;
+    cursor: pointer;
+    background: #40BB15;
+    border: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.titulo-meio{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    text-align: center;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.caixa-central{
+    display: flex;
+    justify-content:  space-evenly;
+}
+
+
+
+.card1{
+    width: 300px;
+    border-radius: 10px;
+    background: #EEF6FF;
+   
+}
+
+.card2{
+    width: 300px;
+    border-radius: 10px;
+    background: #EEF6FF;
+   
+}
+
+.card3{
+    width: 300px;
+    border-radius: 10px;
+    background: #EEF6FF;
+    margin-right: -420px;
+   
+}
+
+
+.titulo-card{
+    background: #219653;
+    height: 49px;
+    border-radius: 10px 10px 0 0;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 14px;
+}
+
+ul{
+    padding-left: 75px;
+    padding-bottom: 10px;
+    padding-top: 16px;
+}
+
+li{
+    margin-bottom: 7px;
+}
+
+.caixa-inferior{
+    background: #210d42;
+    margin-top: 6em;
+}
+
+.titulo-inferior{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 1em;
+
+}
+
+.paragrafo-inferior{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    padding: 20px 50px 50px 50px;
+    text-align: center;
+
+}
+
+@media screen and (max-width: 700px){
+    #conteiner{
+        width: 26em;
+        height: 51em;
+    }
+    #links-cabecalho{
+        padding-left: 3em;
+        font-size: 12px;
+        color: #FFFFFF;
+        margin-top: 5px;
+        cursor: pointer;
+        padding-left: 10em;
+    }
+    a{
+        margin-right: 1em;
+    }
+    .caixa-inferior{
+        display: none;
+    }
+    form{
+        background-color: darkgrey;
+        margin-top: 23em;
+        margin-right: 4em;
+        bottom: 0;
+    }
+    .titulo-meio{
+        display: none;
+    }
+    .caixa-central{
+        display: none;
+    }
+    h1{
+        display: none;
+    }
+    
+}
